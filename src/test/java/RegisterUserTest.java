@@ -33,7 +33,7 @@ class RegisterUserTest {
     @Test
     public void test3() throws UserAlreadyExists {
         b.registerUser(-1, "testUser", 1);
-        assertEquals(-1, b.getUsers().get(1).getIDUser());
+        assertFalse( b.getUsers().get(1).getIDUser()==-1);
     }
 
 
