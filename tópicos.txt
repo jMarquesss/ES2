@@ -1,0 +1,42 @@
+An American National Standard  
+IEEE Standard for Software Unit 
+Testing
+
+1.	Scope and References 
+1.1.	Inside the Scope
+1.2.	Outside the Scope
+1.3.	References
+2.	Definitions
+3.	Unit Testing Activities
+3.1.	Plan the General Approach, Resources, and Schedule.
+3.1.1.	Plan Inputs
+3.1.2.	Plan Tasks
+3.1.3.	Plan Outputs
+3.2.	Determine Features To Be Tested
+3.2.1.	Determine Inputs
+3.2.2.	Determine Tasks
+3.2.3.	Determine Outputs
+3.3.	Refine the General Plan
+3.3.1.	Refine Inputs
+3.3.2.	Refine Tasks
+3.3.3.	Refine Outputs
+3.4.	Design the Set of Tests
+3.4.1.	Design Inputs
+3.4.2.	Design Tasks
+3.4.3.	Design Outputs
+3.5.	Implement the Re ned Plan and Design
+3.5.1.	Implement Inputs
+3.5.2.	Implement Tasks
+3.5.3.	Implement Outputs
+3.6.	Execute the Test Procedures
+3.6.1.	Execute Inputs
+3.6.2.	Execute Tasks
+3.6.3.	Execute Outputs
+3.7.	Check for Termination
+3.7.1.	Check Inputs
+3.7.2.	Check Tasks
+3.7.3.	Check Outputs
+3.8.	Evaluate the Test Effort and Unit
+3.8.1.	Evaluate Inputs
+3.8.2.	Evaluate Tasks
+3.8.3.	Evaluate Outputs
