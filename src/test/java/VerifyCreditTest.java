@@ -28,8 +28,8 @@ class VerifyCreditTest {
     }
 
     @Test
-    public void test3(){
-        b.addCredit(-1,1);
+    public void test3() {
+        b.addCredit(-1, 1);
         assertFalse(b.verifyCredit(-1));
     }
 

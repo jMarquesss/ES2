@@ -25,14 +25,15 @@ class AddCreditTest {
     @Test
     public void test2() {
         b.addCredit(1, 1);
-        assertFalse(b.getUsers().contains(new User(1,"testUser",1)));
+        assertFalse(b.getUsers().contains(new User(1, "testUser", 1)));
     }
 
     @Test
     public void test3() {
         b.addCredit(-1, 1);
-        assertFalse(b.getUsers().contains(new User(-1,"testUser",1)));
+        assertFalse(b.getUsers().contains(new User(-1, "testUser", 1)));
     }
+
     @Test
     public void test4() {
         b.addCredit(0, -1);
