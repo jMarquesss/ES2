@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RegisterUserTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2018-11-19T19:48:35" hostname="JoaoMarques" time="0.013">
+<testsuite name="RegisterUserTest" tests="3" skipped="0" failures="1" errors="0" timestamp="2018-11-19T19:58:40" hostname="JoaoMarques" time="0.031">
   <properties/>
-  <testcase name="test3()" classname="RegisterUserTest" time="0.013">
+  <testcase name="test1()" classname="RegisterUserTest" time="0.016"/>
+  <testcase name="test2()" classname="RegisterUserTest" time="0.003"/>
+  <testcase name="test3()" classname="RegisterUserTest" time="0.01">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;false&gt; but was: &lt;true&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;false&gt; but was: &lt;true&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
 	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:40)

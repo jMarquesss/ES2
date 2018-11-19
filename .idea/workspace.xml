@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="218cf456-e578-4be2-95bb-935b8800690a" name="Default Changelist" comment="decimo setimo">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/GetBicycleTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-GetBicycleTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RegisterUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegisterUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursos/TestResultshtml/Test Results - RegisterUserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Recursos/TestResultshtml/Test Results - RegisterUserTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/RegisterUserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/RegisterUserTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-RegisterUserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-RegisterUserTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -92,11 +101,11 @@
     <session id="1240577722">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.12" value="3" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.12" value="4" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -141,7 +150,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/BikeSharing.jar!/BikeRentalSystem.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="1445">
               <caret line="98" column="37" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
             </state>
           </provider>
@@ -159,8 +168,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RegisterUserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="663">
+              <caret line="39" column="1" selection-start-line="33" selection-start-column="50" selection-end-line="39" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -195,10 +204,6 @@
                 <element signature="e#454#455#0" expanded="true" />
                 <element signature="e#491#492#0" expanded="true" />
                 <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
                 <element signature="e#1003#1004#0" expanded="true" />
                 <element signature="e#1066#1067#0" expanded="true" />
                 <element signature="e#1103#1104#0" expanded="true" />
@@ -218,7 +223,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/GetBicycleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="1088">
               <caret line="70" column="20" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="20" />
             </state>
           </provider>
@@ -456,9 +461,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6170280098329" />
+        <entry key="$PROJECT_DIR$" value="6170290383652" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1398862582" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3469355788" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2566373012" />
       </map>
@@ -772,7 +777,7 @@
     <property name="SearchEverywhereHistoryKey" value="export &#9;ACTION&#9;ExportToHTML&#10;plug&#9;ACTION&#9;WelcomeScreen.Plugins" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542657050481" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542657534224" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -807,7 +812,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.RegisterUserTest.test3">
+  <component name="RunManager" selected="Gradle.RegisterUserTest">
     <configuration name="BicycleRentalFeeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -833,6 +838,25 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests GetBicycleTest" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegisterUserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests RegisterUserTest" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -884,39 +908,20 @@
       </ExternalSystemSettings>
       <method v="2" />
     </configuration>
-    <configuration name="VerifyCreditTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests VerifyCreditTest" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Gradle.VerifyCreditTest" />
       <item itemvalue="Gradle.BicycleRentalFeeTest" />
       <item itemvalue="Gradle.ReturnBikeTest" />
       <item itemvalue="Gradle.GetBicycleTest" />
       <item itemvalue="Gradle.RegisterUserTest.test3" />
+      <item itemvalue="Gradle.RegisterUserTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RegisterUserTest" />
         <item itemvalue="Gradle.RegisterUserTest.test3" />
         <item itemvalue="Gradle.GetBicycleTest" />
         <item itemvalue="Gradle.ReturnBikeTest" />
         <item itemvalue="Gradle.BicycleRentalFeeTest" />
-        <item itemvalue="Gradle.VerifyCreditTest" />
       </list>
     </recent_temporary>
   </component>
@@ -938,7 +943,8 @@
       <workItem from="1542502930416" duration="4675000" />
       <workItem from="1542509853755" duration="8028000" />
       <workItem from="1542628062387" duration="9846000" />
-      <workItem from="1542648555454" duration="2903000" />
+      <workItem from="1542648555454" duration="3055000" />
+      <workItem from="1542657489379" duration="70000" />
     </task>
     <task id="LOCAL-00001" summary="nono commit">
       <created>1542494227832</created>
@@ -958,9 +964,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReturnBikeTest_test6 - 2018.11.19 at 17h 47m 04s.xml">
-      <configuration name="ReturnBikeTest.test6" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="ReturnBikeTest_test4 - 2018.11.19 at 17h 47m 31s.xml">
       <configuration name="ReturnBikeTest.test4" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -988,9 +991,12 @@
     <history-entry file="RegisterUserTest_test3 - 2018.11.19 at 19h 48m 35s.xml">
       <configuration name="RegisterUserTest.test3" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="RegisterUserTest - 2018.11.19 at 19h 58m 41s.xml">
+      <configuration name="RegisterUserTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35061000" />
+    <option name="totallyTimeSpent" value="35283000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1003,7 +1009,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49436393" weight="0.27132195" />
       <window_info id="Structure" order="1" sideWeight="0.5056361" side_tool="true" weight="0.26332623" />
@@ -1014,7 +1019,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.3264642" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.3264642" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1142,13 +1147,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BikeSharingTeste.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/BikeSharingTestt.java" />
-    <entry file="file://$PROJECT_DIR$/Test Results - BikeSharingTest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Test Results - BikeSharingTest.html" />
     <entry file="jar://$PROJECT_DIR$/lib/BikeSharing.jar!/Models/Lock.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1185,17 +1184,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/BikeSharing.jar!/BikeRentalSystem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="98" column="37" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BikeSharing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/BikeSharing.jar!/BikeRentalSystem.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="98" column="37" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1240,15 +1239,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GetBicycleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="1088">
           <caret line="70" column="20" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RegisterUserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="663">
+          <caret line="39" column="1" selection-start-line="33" selection-start-column="50" selection-end-line="39" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

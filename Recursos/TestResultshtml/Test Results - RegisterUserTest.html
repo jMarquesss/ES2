@@ -572,8 +572,8 @@ jQuery.cookie = function(name, value, options) {
 <body>
 <div id="container">
 <div id="header">
-<div class="time" xmlns="">9 ms</div>
-<h1>RegisterUserTest: <strong><span class="total" xmlns="http://www.w3.org/1999/xhtml">3 total, </span><span class="passed">3 passed</span></strong>
+<div class="time" xmlns="">16 ms</div>
+<h1>RegisterUserTest: <strong><span class="total" xmlns="http://www.w3.org/1999/xhtml">3 total, </span><span class="error">1 error, </span><span class="passed">2 passed</span></strong>
 </h1>
 <div id="treecontrol">
 <ul>
@@ -589,25 +589,30 @@ jQuery.cookie = function(name, value, options) {
 </div>
 <div id="content">
 <ul id="tree">
-<li xmlns="" class="level top open">
+<li xmlns="" class="level top failed open">
 <span><em class="time">
-<div class="time">12 ms</div>
+<div class="time">29 ms</div>
 </em>RegisterUserTest</span>
 <ul>
 <li class="level test">
 <span><em class="time">
-<div class="time">9 ms</div>
+<div class="time">16 ms</div>
 </em><em class="status">passed</em>test1()</span>
 </li>
 <li class="level test">
 <span><em class="time">
-<div class="time">2 ms</div>
+<div class="time">3 ms</div>
 </em><em class="status">passed</em>test2()</span>
 </li>
-<li class="level test">
+<li class="level test failed open">
 <span><em class="time">
-<div class="time">1 ms</div>
-</em><em class="status">passed</em>test3()</span>
+<div class="time">10 ms</div>
+</em><em class="status">error</em>test3()</span>
+<ul>
+<li class="text">
+<span class="stderr">expected: &lt;false&gt; but was: &lt;true&gt;<br/>org.opentest4j.AssertionFailedError: expected: &lt;false&gt; but was: &lt;true&gt;<br/>	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)<br/>	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:40)<br/>	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:35)<br/>	at org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:185)<br/>	at RegisterUserTest.test3(RegisterUserTest.java:36)<br/>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br/>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>	at java.lang.reflect.Method.invoke(Method.java:498)<br/>	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:515)<br/>	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)<br/>	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:171)<br/>	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)<br/>	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:167)<br/>	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:114)<br/>	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:59)<br/>	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:105)<br/>	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)<br/>	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)<br/>	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)<br/>	at java.util.ArrayList.forEach(ArrayList.java:1257)<br/>	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)<br/>	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:110)<br/>	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)<br/>	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)<br/>	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)<br/>	at java.util.ArrayList.forEach(ArrayList.java:1257)<br/>	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)<br/>	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:110)<br/>	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)<br/>	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:95)<br/>	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:71)<br/>	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)<br/>	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)<br/>	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)<br/>	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)<br/>	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)<br/>	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)<br/>	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:92)<br/>	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$100(JUnitPlatformTestClassProcessor.java:77)<br/>	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:73)<br/>	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)<br/>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br/>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>	at java.lang.reflect.Method.invoke(Method.java:498)<br/>	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)<br/>	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)<br/>	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)<br/>	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)<br/>	at com.sun.proxy.$Proxy1.stop(Unknown Source)<br/>	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:123)<br/>	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br/>	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>	at java.lang.reflect.Method.invoke(Method.java:498)<br/>	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)<br/>	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)<br/>	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)<br/>	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)<br/>	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)<br/>	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)<br/>	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)<br/>	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)<br/>	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)<br/>	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)<br/>	at java.lang.Thread.run(Thread.java:748)<br/></span>
+</li>
+</ul>
 </li>
 </ul>
 </li>
@@ -615,7 +620,7 @@ jQuery.cookie = function(name, value, options) {
 </div>
 </div>
 <div id="footer">
-<p>Generated by IntelliJ IDEA on 19/11/18 17:57</p>
+<p>Generated by IntelliJ IDEA on 19/11/18 19:58</p>
 </div>
 </body>
 </html>
